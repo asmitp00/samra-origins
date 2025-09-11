@@ -85,7 +85,7 @@ body.show-mobile-menu header::before {
 .navbar .nav-menu .navlink:hover {
   color: var(--primary-color);
   background: var(--secondary-color);
-  
+
 
 }
 
@@ -300,6 +300,69 @@ img {
 }
 
 
+footer {
+  position: relative;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: #000000;
+  text-align: center;
+
+  padding: 2rem;
+  gap: 400px;
+
+
+}
+
+.about-us {
+  position: relative;
+  padding: 10px;
+  text-align: center;
+  align-content: center;
+  border: 2px solid white;
+  border-radius: 20px;
+  max-width: 90%;
+  width: 450px;
+  height: 300px;
+}
+
+.aboutlogo {
+  background-image: url("nespresso.svg");
+  height: 200px;
+  width: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+
+}
+
+.samralogo{
+  background-image: url(https://mma.prnewswire.com/media/2068445/SamraOrigins_Wordmark_Press_RGB_Logo.jpg?w=200);
+  background-size: contain;
+  height: 200px;
+  width: 180px;
+  background-repeat:no-repeat ;
+  position: relative;
+  top: 35px;
+}
+
+.lastimgs{
+  display: flex;
+  gap: 50px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+
+
+
+
 
 
 @media screen and (max-width : 900px) {
@@ -448,6 +511,35 @@ img {
   font-weight: var(--font-weight-semibold);
   color: var(--primary-color);
 }
+
+footer {
+  position: relative;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: #000000;
+  text-align: center;
+  flex-wrap: wrap;
+  padding: 2rem;
+  gap: 10px;
+
+
+}
+
+.samralogo{
+  width: 150px;
+  position: relative;
+  margin-top: 10px;
+}
+
+.lastimgs{
+  position: relative;
+  gap: 5px;
+}
+
+
 
 
 
