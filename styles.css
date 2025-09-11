@@ -535,8 +535,10 @@ footer {
 }
 
 .lastimgs{
+  display: flex;
   position: relative;
   gap: 5px;
+  flex-wrap: wrap;
 }
 
 
